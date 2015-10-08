@@ -12,3 +12,11 @@ git merge dev
 
 #delete branch 'dev'
 git branch -d dev
+
+# resolve merge conflict with branch 'feature1'
+git merge feature1
+
+# check the merge graph
+git log --graph --pretty=oneline --abbrev-commit
+
+git branch -d feature1

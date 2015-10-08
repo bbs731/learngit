@@ -4,4 +4,11 @@ git checkout -b dev
 # list branches
 git branch
 
+#change to master branch
+git checkout master
 
+#use fast-forward to merge changes on dev branches
+git merge dev
+
+#delete branch 'dev'
+git branch -d dev

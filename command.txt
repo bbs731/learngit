@@ -1,0 +1,7 @@
+# switch to 'dev' branch 
+git checkout -b dev
+
+# list branches
+git branch
+
+
